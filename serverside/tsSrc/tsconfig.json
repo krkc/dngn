@@ -1,0 +1,21 @@
+{
+    "compilerOptions": {
+        "module": "commonjs",
+        "noImplicitAny": true,
+        "removeComments": true,
+        "preserveConstEnums": true,
+        "sourceMap": true,
+        "outDir": "../"
+    },
+    "filesGlob": [
+        "node.d.ts",
+        "DngnGame.ts"
+    ],
+    "files": [
+        "node.d.ts",
+        "DngnGame.ts"
+    ],
+    "atom": {
+        "rewriteTsconfig": true
+    }
+}
